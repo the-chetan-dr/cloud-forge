@@ -200,7 +200,7 @@ spec:
               echo "DB is ready!"
       containers:
         - name: backend
-          image: ghcr.io/the-chetan-dr/cloud-forge/jerney-backend:843a024
+          image: ghcr.io/the-chetan-dr/cloud-forge/jerney-backend:a0ee137
           ports:
             - containerPort: 5000
               protocol: TCP
@@ -307,7 +307,7 @@ spec:
           effect: "NoSchedule"
       containers:
         - name: frontend
-          image: ghcr.io/the-chetan-dr/cloud-forge/jerney-frontend:843a024
+          image: ghcr.io/the-chetan-dr/cloud-forge/jerney-frontend:a0ee137
           ports:
             - containerPort: 8080
               protocol: TCP
